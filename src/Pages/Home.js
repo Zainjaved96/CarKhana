@@ -9,12 +9,12 @@ import Footer from '../Components/Footer'
 function Home() {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Hero/>
         <Brands/>
         <FeaturedCars/>
         <Features/>
-        <Footer/>
+        {/* <Footer/> */}
     </>
    
    

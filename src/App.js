@@ -8,20 +8,15 @@ import Footer from './Components/Footer';
 import Auth from './Pages/Auth';
 import Forms from './Components/Forms';
 import Signup from './Components/Signup';
+import Home from "./Pages/Home";
+import Vehicles from './Components/Vehicles';
 
 
 function App() {
   return (
     <>
-      {/* <Navbar logoName="CarKhana" />
-      <Hero/>
-      <Brand/>
-      <FeaturedCars/>
-      <Features/>
-      <Footer/> */}
-      <Navbar/>
-      <Signup/>
-      <Footer/>
+    <Navbar/>
+    <Vehicles/>
     </>
 
   );

@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Brand from "./Components/Brands"
 import FeaturedCars from './Components/FeaturedCars';
 import Features from './Components/Features';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Brand/>
       <FeaturedCars/>
       <Features/>
+      <Footer/>
     </>
 
   );

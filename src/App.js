@@ -5,16 +5,22 @@ import Brand from "./Components/Brands"
 import FeaturedCars from './Components/FeaturedCars';
 import Features from './Components/Features';
 import Footer from './Components/Footer';
+import Auth from './Pages/Auth';
+import Forms from './Components/Forms';
+import Signup from './Components/Signup';
 
 
 function App() {
   return (
     <>
-      <Navbar logoName="CarKhana" />
+      {/* <Navbar logoName="CarKhana" />
       <Hero/>
       <Brand/>
       <FeaturedCars/>
       <Features/>
+      <Footer/> */}
+      <Navbar/>
+      <Signup/>
       <Footer/>
     </>
 

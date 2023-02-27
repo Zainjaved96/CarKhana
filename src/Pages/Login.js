@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
+import Layout from "../Components/Layout";
 
-import LoginForm from '../Components/LoginForm'
+import LoginForm from "../Components/LoginForm";
 
-function Login() {
+function Login(props) {
+  document.title = props.title + " - Carkhana";
   return (
-   <>
-    <LoginForm/>
-   </>
-  )
+    <>
+      <Layout>
+        <LoginForm />
+      </Layout>
+    </>
+  );
 }
 
-export default Login
+export default Login;

@@ -1,12 +1,13 @@
 import React from "react";
-import alto from "../images/AltoOut.jpg";
-import civic from "../images/Honda_Civic_Front_Right_Angled.jpg";
-import swift from "../images/Product-Card.png";
-import landCruisor from "../images/Land_Cruiser_300_-_PNG.png";
+import alto from "../images/Alto.jpg";
+import civic from "../images/civic.jpg";
+import swift from "../images/swift.png";
+import landCruisor from "../images/landCruiser.png";
 import { Link } from "react-router-dom";
 function FeaturedCars() {
   
   return (
+    // Aligned With Flexbox 
     <div className="bg-gray-900  font-poppins text-white py-5 px-3">
       <h1 className="text-3xl pb-4 pt-1 text-white font-semibold">
         <span className="border-b-2 border-darkRed pb-1">Most Rented Cars</span>

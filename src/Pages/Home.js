@@ -1,21 +1,22 @@
-import React from 'react'
-import Hero from "../Components/Hero"
-import Brands from '../Components/Brands'
-import FeaturedCars from '../Components/FeaturedCars'
-import Features from '../Components/Features'
+import React from "react";
+import Hero from "../Components/Hero";
+import Brands from "../Components/Brands";
+import FeaturedCars from "../Components/FeaturedCars";
+import Features from "../Components/Features";
+import Layout from "../Components/Layout";
 
-function Home() {
+function Home(props) {
+  document.title = props.title + " - Carkhana";
   return (
     <>
-        <Hero/>
-        <Brands/>
-        <FeaturedCars/>
-        <Features/>
+      <Layout>
+        <Hero />
+        <Brands />
+        <FeaturedCars />
+        <Features />
+      </Layout>
     </>
-   
-   
-   
-  )
+  );
 }
 
-export default Home
+export default Home;

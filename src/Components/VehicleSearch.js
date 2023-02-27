@@ -1,11 +1,21 @@
 import React from 'react'
-import swift from "../images/Product-Card.png"
-import city from "../images/city.png"
-import corolla from "../images/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg"
+import data from "../Data/Cars.json"
+import SearchCards from './SearchCards'
+
+
+
 function VehicleSearch() {
+    const cars = data.cars
+    const carCards = cars.map((x)=>{
+        return <SearchCards car={x} />
+    })
+    console.log(carCards)
   return (
+    // Car Search aligned with Flexbox
     <div className='font-poppins  bg-[#F8F5F4]'>
+        {/* Making flex a column on mobile devices */}
         <div className="flex flex-wrap gap-5 flex-col sm:flex-row px-5 sm:px-20 my-10">
+            {/* Flex-none so filter section is small */}
             <div className='flex-none  md:w-[18rem]  py-2 ' >
                 <h1 className='text-lg font-semibold my-4
                 '>Filter By</h1>
@@ -70,91 +80,11 @@ function VehicleSearch() {
                    
                 </div>
             </div>
+            {/* Using grow so car section is bigger */}
             <div className='grow  py-2 '>
                 <h1 className="text-2xl text-center font-semibold">Explore Vehicles</h1>
                 <div className='flex flex-col '>
-                    <div className="flex-col my-2 sm:flex-row flex  sm:items-center py-2 bg-white px-2 rounded shadow-sm">
-                    <div className='flex justify-center'>
-                            <img src={swift} className="w-[164px] h[129px] " alt="" />
-                        </div>                        <div className="flex  flex-col  sm:px-5">
-                            <h1 className='text-xl font-semibold'>Suzuki Swift</h1>
-                            <p className='text-base text-muted'>2018</p>
-                            <div className="flex gap-2 py-2 flex-col sm:flex-row">
-                                <div className="flex ">
-                                    <p className='text-muted text-sm'>Passengers:</p>
-                                    <p className='text-sm'>5</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Gear:</p>
-                                    <p className='text-sm'>Manual</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Feul:</p>
-                                    <p className='text-sm'>Full</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col sm:ml-auto sm:mr-3">
-                            <h1 className='text-xl font-semibold'>4,999 Rs</h1>
-                            <p className='text-base text-muted'>Per day</p>
-                            <a className='py-2 px-2 mt-2 bg-carRed rounded text-white hover:bg-darkRed cursor-pointer'>Rent Now</a>
-                        </div>
-                    </div>
-                    <div className="flex-col my-2 sm:flex-row flex  sm:items-center py-2 bg-white px-2 rounded shadow-sm">
-                        <div className='flex justify-center'>
-                            <img src={corolla} className="w-[164px] h[129px] " alt="" />
-                        </div>
-                        <div className="flex  flex-col  sm:px-5">
-                            <h1 className='text-xl font-semibold'>Toyota Corolla</h1>
-                            <p className='text-base text-muted'>2021</p>
-                            <div className="flex gap-2 py-2 flex-col sm:flex-row">
-                                <div className="flex ">
-                                    <p className='text-muted text-sm'>Passengers:</p>
-                                    <p className='text-sm'>5</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Gear:</p>
-                                    <p className='text-sm'>Manual</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Feul:</p>
-                                    <p className='text-sm'>Full</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col sm:ml-auto sm:mr-3">
-                            <h1 className='text-xl font-semibold'>14,999 Rs</h1>
-                            <p className='text-base text-muted'>Per day</p>
-                            <a className='py-2 px-2 mt-2 bg-carRed rounded text-white hover:bg-darkRed cursor-pointer'>Rent Now</a>
-                        </div>
-                    </div>
-                    <div className="flex-col my-2 sm:flex-row flex  sm:items-center py-2 bg-white px-2 rounded shadow-sm">
-                    <div className='flex justify-center'>
-                            <img src={city} className="w-[164px] h[129px] " alt="" />
-                        </div>                        <div className="flex  flex-col  sm:px-5">
-                            <h1 className='text-xl font-semibold'>Honda City</h1>
-                            <p className='text-base text-muted'>2020</p>
-                            <div className="flex gap-2 py-2 flex-col sm:flex-row">
-                                <div className="flex ">
-                                    <p className='text-muted text-sm'>Passengers:</p>
-                                    <p className='text-sm'>5</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Gear:</p>
-                                    <p className='text-sm'>Manual</p>
-                                </div>
-                                <div className="flex items-center">
-                                    <p className='text-sm text-muted '>Feul:</p>
-                                    <p className='text-sm'>Full</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col sm:ml-auto sm:mr-3">
-                            <h1 className='text-xl font-semibold'>12,999 Rs</h1>
-                            <p className='text-base text-muted'>Per day</p>
-                            <a className='py-2 px-2 mt-2 bg-carRed rounded text-white hover:bg-darkRed cursor-pointer'>Rent Now</a>
-                        </div>
-                    </div>
+                    {carCards}
                 </div>
             </div>
 

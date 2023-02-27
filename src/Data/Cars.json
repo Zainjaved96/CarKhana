@@ -1,0 +1,71 @@
+{
+    "cars": [
+      {
+        "name": "Suzuki Wagon R",
+        "userId": 1,
+        "year": 2022,
+        "rentalPrice": 20,
+        "type": "Automatic",
+        "passengerCount": 5,
+        "mileage": 30,
+        "horsepower": 67,
+        "imageName":"WagonR.jpg"
+      },
+      {
+        "name": "Suzuki Swift",
+        "userId": 2,
+        "year": 2021,
+        "rentalPrice": 25,
+        "type": "Manual",
+        "passengerCount": 4,
+        "mileage": 28,
+        "horsepower": 82,
+        "imageName":"swift.png"
+      },
+      {
+        "name": "Honda City",
+        "userId": 3,
+        "year": 2020,
+        "rentalPrice": 30,
+        "type": "Automatic",
+        "passengerCount": 5,
+        "mileage": 32,
+        "horsepower": 119,
+        "imageName":"city.png"
+      },
+      {
+        "name": "Honda Civic",
+        "userId": 4,
+        "year": 2023,
+        "rentalPrice": 35,
+        "type": "Manual",
+        "passengerCount": 5,
+        "mileage": 26,
+        "horsepower": 158,
+        "imageName":"civic.jpg"
+      },
+      {
+        "name": "Land Cruiser",
+        "userId": 5,
+        "year": 2021,
+        "rentalPrice": 50,
+        "type": "Automatic",
+        "passengerCount": 7,
+        "mileage": 18,
+        "horsepower": 201,
+        "imageName":"landCruiser.png"
+      },
+      {
+        "name": "Toyota Corolla",
+        "userId": 6,
+        "year": 2022,
+        "rentalPrice": 40,
+        "type": "Manual",
+        "passengerCount": 7,
+        "mileage": 25,
+        "horsepower": 104,
+        "imageName":"corolla.png"
+      }
+    ]
+  }
+  

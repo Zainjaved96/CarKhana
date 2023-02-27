@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
+    // Navbar uses flex-col and sm:flex-row for responsiveness
     <header className="text-gray-400 bg-gray-900 font-poppins">
     <div className="container  justify-between flex flex-wrap p-1 flex-col lg:flex-row items-center gap-3 sm:gap-0">
       <Link className="flex  font-medium  text-white  md:mb-0 cursor-pointer justify-center " to="/">

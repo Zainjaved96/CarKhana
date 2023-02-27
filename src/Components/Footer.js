@@ -3,6 +3,7 @@ import logo from "../images/logo.png"
 
 function Footer() {
   return (
+    // Footer Aligned by Flexbox inspired by Phonekar.biz
     <footer className="font-poppins text-gray-900 flex flex-wrap flex-col sm:flex-row text-center sm:text-start justify-around bg-white py-[100px] px-5">
       <div className="sm:text-start ">
         <h1 className="text-2xl">Get in Touch</h1>

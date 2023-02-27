@@ -1,10 +1,12 @@
 import React from 'react'
-import about from "../images/about.png"
+import about from "../images/about-hero.png"
 function AboutHero() {
   return (
     <section className="text-white bg-gray-900 font-poppins">
+    {/* using Flex for aligning */}
       <div className="container mx-auto justify-center flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="order-1 0 g:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      {/* Using order property to switch order on mobile device */}
+        <div className="order-1  md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="sm:text-4xl text-3xl mb-4 border-b-2 border-darkRed pb-2 font-medium text-white text-left ">
           About Us
           </h1>
@@ -27,6 +29,7 @@ function AboutHero() {
       </div>
     </section>
   )
+
 }
 
 export default AboutHero

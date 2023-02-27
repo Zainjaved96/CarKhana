@@ -1,16 +1,15 @@
 import React from "react";
 import Layout from "../Components/Layout";
-import VehicleSearch from "../Components/VehicleSearch";
-
-function Vehicles(props) {
+import SignupForm from "../Components/SignupForm";
+function Signup(props) {
   document.title = props.title + " - Carkhana";
   return (
     <>
       <Layout>
-        <VehicleSearch />
+        <SignupForm />
       </Layout>
     </>
   );
 }
 
-export default Vehicles;
+export default Signup;

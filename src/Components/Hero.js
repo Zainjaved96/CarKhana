@@ -1,8 +1,9 @@
 import React from "react";
-import hero from "../images/hero.png";
+import hero from "../images/about.png";
 
 function Hero() {
   return (
+    // Main hero section aligned by Flexbox
     <section className="text-white bg-gray-900 font-poppins">
       <div className="container mx-auto justify-center flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="order-1 0 g:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

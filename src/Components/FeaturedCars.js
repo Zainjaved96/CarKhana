@@ -3,15 +3,15 @@ import alto from "../images/AltoOut.jpg";
 import civic from "../images/Honda_Civic_Front_Right_Angled.jpg";
 import swift from "../images/Product-Card.png";
 import landCruisor from "../images/Land_Cruiser_300_-_PNG.png";
-
+import { Link } from "react-router-dom";
 function FeaturedCars() {
   
   return (
-    <div className="bg-gray-900 mb-12 font-poppins text-white container mt-5">
+    <div className="bg-gray-900  font-poppins text-white py-5 px-3">
       <h1 className="text-3xl pb-4 pt-1 text-white font-semibold">
         <span className="border-b-2 border-darkRed pb-1">Most Rented Cars</span>
       </h1>
-      <div className="flex flex-wrap justify-center py-1 my-1 gap-5 ">
+      <div className="flex flex-wrap justify-center  py-1 gap-5 ">
         <div className="pb-2  bg-white text-carRed text-center hover:cursor-pointer rounded hover:shadow-lg">
           <img src={alto} className="rounded w-[233px] h-[174px]" alt="" />
           <h1 className="text-xl text-gray-800 font-semibold">Suzuki Alto</h1>
@@ -74,12 +74,12 @@ function FeaturedCars() {
         </div>
       </div>
       <div className="flex justify-center py-4">
-        <a
-          href="/"
+        <Link
+          to="/vehicles"
           className=" inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-carRed hover:text-white rounded text-lg"
         >
           Explore All
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -2,12 +2,11 @@ import React from 'react'
 import swift from "../images/Product-Card.png"
 import city from "../images/city.png"
 import corolla from "../images/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg"
-function Vehicles() {
+function VehicleSearch() {
   return (
     <div className='font-poppins  bg-[#F8F5F4]'>
-        <h1 className='text-3xl text-center'>Explore Our Vehicles</h1>
         <div className="flex flex-wrap gap-5 flex-col sm:flex-row px-5 sm:px-20 my-10">
-            <div className='flex-none  sm:w-[18rem]  py-2 ' >
+            <div className='flex-none  md:w-[18rem]  py-2 ' >
                 <h1 className='text-lg font-semibold my-4
                 '>Filter By</h1>
                 <div className="my-3 bg-white px-4 py-2 rounded shadow-md">
@@ -164,4 +163,4 @@ function Vehicles() {
   )
 }
 
-export default Vehicles
+export default VehicleSearch

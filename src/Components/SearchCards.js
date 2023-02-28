@@ -27,12 +27,17 @@ function SearchCards(props) {
             </div>
             <div className="flex items-center">
                 <p className="text-sm text-muted ">Mileage:</p>
-                <p className="text-sm">{mileage} cc</p>
+                <p className="text-sm">{mileage} mph</p>
+            </div>
+            <div className="flex items-center">
+                <p className="text-sm text-muted ">Horsepower:</p>
+                <p className="text-sm">{horsepower} </p>
             </div>
             </div>
         </div>
+        
         <div className="flex flex-col sm:ml-auto sm:mr-3">
-            <h1 className="text-xl font-semibold">{rentalPrice}$</h1>
+            <h1 className="text-xl font-semibold">{userId + rentalPrice}$</h1>
             <p className="text-base text-muted">Per day</p>
             <Link  to="/product-details" state={props.car}  className="py-2 px-2 mt-2 bg-carRed rounded text-white hover:bg-darkRed cursor-pointer">
             Rent Now

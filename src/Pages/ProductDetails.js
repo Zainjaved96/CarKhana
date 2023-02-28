@@ -1,6 +1,5 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-import { useParams } from 'react-router-dom'
 import Layout from '../Components/Layout'
 function ProductDetails() {
     const location = useLocation() 

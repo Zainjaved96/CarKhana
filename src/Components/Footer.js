@@ -13,29 +13,29 @@ function Footer() {
       </div>
       <div className="flex flex-col gap-1">
        <h1 className="text-2xl font-semibold">Pages</h1>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Home</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Vehicles</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Venders</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Contact</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">About</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Home</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Vehicles</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Venders</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Contact</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">About</a>
       </div>
       <div className="flex flex-col gap-1">
 
        <h1 className="text-2xl font-semibold">Socials</h1>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Facebook</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Instagram</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Youtube</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Whatsapp</a>
-       <a className="text-lg hover:text-carRed cursor-pointer ">Twitter</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Facebook</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Instagram</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Youtube</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Whatsapp</a>
+       <a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Twitter</a>
       </div>
       <div className="flex flex-col gap-1">
 
 <h1 className="text-2xl font-semibold">Brands</h1>
-<a className="text-lg hover:text-carRed cursor-pointer ">Suzuki</a>
-<a className="text-lg hover:text-carRed cursor-pointer ">Honda</a>
-<a className="text-lg hover:text-carRed cursor-pointer ">Mercedes</a>
-<a className="text-lg hover:text-carRed cursor-pointer ">BMW</a>
-<a className="text-lg hover:text-carRed cursor-pointer ">Kia</a>
+<a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Suzuki</a>
+<a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Honda</a>
+<a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Mercedes</a>
+<a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">BMW</a>
+<a href="/vehicles" className="text-lg hover:text-carRed cursor-pointer ">Kia</a>
 </div>
       <div> 
             <img src={logo} width="70%" alt="" />

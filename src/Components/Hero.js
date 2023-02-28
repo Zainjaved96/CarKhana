@@ -4,9 +4,9 @@ import hero from "../images/about.png";
 function Hero() {
   return (
     // Main hero section aligned by Flexbox
-    <section className="text-white bg-gray-900 font-poppins">
+    <section className="text-white bg-gray-900 font-poppins anim">
       <div className="container mx-auto justify-center flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="order-1 0 g:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="order-1 0 g:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center animate-fade-l-r ">
           <h1 className="sm:text-4xl text-3xl mb-4 border-b-2 border-darkRed pb-2 font-medium text-white text-left ">
             Looking to Save more <br /> on your Rental Car?
           </h1>
@@ -19,15 +19,15 @@ function Hero() {
             family. We've got you covered.
           </p>
           <div className="flex justify-center">
-            <a
-              href="/"
+            <button
+             
               className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-carRed hover:text-white rounded text-lg"
             >
               Rent Now
-            </a>
+            </button>
           </div>
         </div>
-        <div className=" sm:order-2 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className=" sm:order-2 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 animate-fade-r-l">
           <img
             className="object-cover object-center rounded transition duration-500 ease-in-out transform hover:scale-110 cursor-pointer"
             alt="hero"

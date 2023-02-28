@@ -18,12 +18,12 @@ function FeaturedCars() {
           <h1 className="text-xl text-gray-800 font-semibold">Suzuki Alto</h1>
           <p className="text-sm font-extrabold text-muted">PKR 3k-5k/day</p>
           <div className="flex justify-center py-2">
-            <a
-              href="/"
+            <button
+             
               className=" inline-flex text-white font-semibold bg-carRed border-0 py-2 px-6 focus:outline-none hover:bg-darkRed hover:text-white rounded text-lg"
             >
               Rent Now
-            </a>
+            </button>
           </div>
           
         </div>
@@ -32,12 +32,12 @@ function FeaturedCars() {
           <h1 className="text-xl text-gray-800 font-semibold">Honda Civic</h1>
           <p className="text-sm font-extrabold text-muted">PKR 15k-20k/day</p>
           <div className="flex justify-center py-2">
-            <a
-              href="/"
+            <button
+              
               className=" inline-flex text-white font-semibold bg-carRed border-0 py-2 px-6 focus:outline-none hover:bg-darkRed hover:text-white rounded text-lg"
             >
               Rent Now
-            </a>
+            </button>
           </div>
           
         </div>
@@ -46,12 +46,12 @@ function FeaturedCars() {
           <h1 className="text-xl text-gray-800 font-semibold">Suzuki Swift</h1>
           <p className="text-sm font-extrabold text-muted">PKR 8k-12k/day</p>
           <div className="flex justify-center py-2">
-            <a
-              href="/"
+            <button
+              
               className=" inline-flex text-white font-semibold bg-carRed border-0 py-2 px-6 focus:outline-none hover:bg-darkRed hover:text-white rounded text-lg"
             >
               Rent Now
-            </a>
+            </button>
           </div>
         </div>
         <div className=" bg-white text-carRed text-center hover:cursor-pointer rounded hover:shadow-lg">
@@ -65,12 +65,12 @@ function FeaturedCars() {
           </h1>
           <p className="text-sm font-extrabold text-muted">PKR 25k-30k/day</p>
           <div className="flex justify-center py-2">
-            <a
-              href="/"
+            <button
+              
               className=" inline-flex text-white font-semibold bg-carRed border-0 py-2 px-6 focus:outline-none hover:bg-darkRed hover:text-white rounded text-lg"
             >
               Rent Now
-            </a>
+            </button>
           </div>
         </div>
       </div>

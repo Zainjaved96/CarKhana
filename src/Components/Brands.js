@@ -8,7 +8,7 @@ import kia from "../images/KIA.png";
 
 function Hero() {
   return (
-    <section className=" bg-gray-900 py-10 font-poppins row  container-fluid text-center m-0   text-white">
+    <section className=" bg-gray-900 py-10 font-poppins row  container-fluid text-center m-0   text-white  ">
       <h1 className="text-3xl mb-4 text-white font-semibold">
         <span className="border-b-2 border-darkRed pb-1">Popular Brands</span>
       </h1>

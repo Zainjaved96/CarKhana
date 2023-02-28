@@ -14,7 +14,7 @@ function VehicleSearch() {
     // Car Search aligned with Flexbox
     <div className='font-poppins  bg-[#F8F5F4]'>
         {/* Making flex a column on mobile devices */}
-        <div className="flex flex-wrap gap-5 flex-col sm:flex-row px-5 sm:px-20 my-10">
+        <div className="flex flex-wrap gap-5 flex-col sm:flex-row px-5 sm:px-20 py-10">
             {/* Flex-none so filter section is small */}
             <div className='flex-none  md:w-[18rem]  py-2 ' >
                 <h1 className='text-lg font-semibold my-4

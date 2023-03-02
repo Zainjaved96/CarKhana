@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../Components/Layout";
 import { useState  } from "react";
+import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
 function ProductDetails() {
 
@@ -48,7 +49,7 @@ function ProductDetails() {
               </form>
               {/* Reviews */}
             
-              <form className="mt-10">
+              <div className="mt-10">
                 {/* Colors */} 
                 <div>
                   <h3 className="text-sm font-medium text-gray-900">Color</h3>
@@ -77,13 +78,13 @@ function ProductDetails() {
                 </div>
                 {/*izes */}
                 
-                <button
+                <Link to="/checkout"
                   type="submit"
                   className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-gray-800 hover:bg-gray-900 py-3 px-8 text-base font-medium text-white  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                  Rent Now
-                </button>
-              </form>
+                </Link>
+              </div>
             </div>
             <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
               {/* Description and details */}

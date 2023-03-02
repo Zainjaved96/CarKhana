@@ -9,6 +9,7 @@ import Signup from "./Pages/Signup";
 import Vehicles from "./Pages/Vehicles";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProductDetails from './Pages/ProductDetails';
+import Checkout from './Pages/Checkout';
 
 // Creating Browser Router
 const router = createBrowserRouter([
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
   { path: "/login", element: <Login title="Login" /> },
   { path: "/signup", element: <Signup title="Signup" /> },
   { path: "/product-details", element: <ProductDetails /> },
+  { path: "/checkout", element: <Checkout /> },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

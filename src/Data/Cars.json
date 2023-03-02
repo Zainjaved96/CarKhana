@@ -27,7 +27,13 @@
         "passengerCount": 4,
         "mileage": 28,
         "horsepower": 82,
-        "imageName":"swift.png"
+        "imageName":"swift.png",
+        "features":["Spacious and fuel-efficient",
+        "Modern safety features",
+        "Comfortable and easy-to-park",
+        "Ample cargo space and folding rear seats",
+        "Affordable rental rates and efficient engine."],
+        "desc":"The Suzuki Swift is a versatile and practical car, perfect for those looking for a reliable and economical vehicle. With its compact size and spacious interior, it's ideal for navigating through city streets and tight parking spaces. The car's fuel-efficient engine provides excellent mileage, making it an affordable option for long drives or daily commutes. Equipped with modern features like air conditioning and power steering, the Wagon R offers a comfortable driving experience. Whether you're a small family or an individual looking for a dependable car, the Suzuki Wagon R is an excellent choice for your rental needs."
       },
       {
         "name": "Honda City",

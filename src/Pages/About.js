@@ -3,6 +3,7 @@ import AboutHero from '../Components/AboutHero';
 import Layout from '../Components/Layout';
 
 function About(props) {
+  // Changing Title 
     document.title = props.title + " - Carkhana"
   return (
     <>

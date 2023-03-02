@@ -3,7 +3,6 @@ import data from "../Data/Cars.json"
 import SearchCards from './SearchCards'
 
 
-
 function VehicleSearch() {
     const cars = data.cars
     const carCards = cars.map((x)=>{

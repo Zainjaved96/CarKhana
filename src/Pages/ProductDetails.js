@@ -3,10 +3,10 @@ import { useLocation } from "react-router-dom";
 import Layout from "../Components/Layout";
 import { useState  } from "react";
 import { Link } from "react-router-dom";
-import Slider from "../Components/Slider";
+
 function ProductDetails() {
 
-
+  //  Getting data from previous page 
   const location = useLocation();
   const car = location.state;
   
@@ -18,8 +18,8 @@ function ProductDetails() {
     </span>
     </li>
     })
-   
-  let days = 1 
+  
+  // Adding UseState for price change 
   const [price, setPrice] = useState(car.rentalPrice)
   function setDays(e){
     
@@ -34,7 +34,7 @@ function ProductDetails() {
           {/* Product info */}
           <div className="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
             <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-              <img src={require(`../images/${car.imageName}`)} />
+              <img src={require(`../images/${car.imageName}`)} alt="car-img" />
               <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                 {car.name}
               </h1>
@@ -101,9 +101,10 @@ function ProductDetails() {
                  Features
                 </h3>
                 <div className="mt-4">
-                  <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
+                  <div role="list" className="list-disc space-y-2 pl-4 text-sm">
+                  {/* Adding Features */}
                   {features}
-                  </ul>
+                  </div>
                 </div>
               </div>
               <div className="mt-10">

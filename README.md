@@ -1,7 +1,7 @@
 This is a web application for renting cars built with React and styled with Tailwind CSS.
 
 ### Installation
-Clone the repository: git clone https://github.com/username/rental-car-react-app.git
+Clone the repository: git clone https://github.com/zainjaved96/Carkhana.git
 Change directory into the project: cd rental-car-react-app
 Install dependencies: npm install
 Usage

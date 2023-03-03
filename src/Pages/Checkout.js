@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from './../Components/Layout';
-import CheckoutForm from './../Components/CheckoutForm';
-import Invoice from './../Components/Invoice';
+import Layout from './../Components/Layout/Layout';
+import CheckoutForm from './../Components/Checkout/CheckoutForm';
+import Invoice from './../Components/Checkout/Invoice';
 
 function Checkout() {
   return (

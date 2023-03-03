@@ -1,5 +1,5 @@
 import React from 'react'
-import about from "../images/about-hero.png"
+import about from "../../images/about-hero.png"
 function AboutHero() {
   return (
     <section className="text-white bg-gray-900 font-poppins">

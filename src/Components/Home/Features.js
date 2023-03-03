@@ -1,5 +1,5 @@
 import React from "react";
-import features from "../images/features.png"
+import features from "../../images/features.png"
 
 function Features() {
   return (

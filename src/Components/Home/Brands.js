@@ -1,10 +1,10 @@
 import React from "react";
-import suzuki from "../images/Suzuki.png";
-import toyota from "../images/Tyota.png";
-import honda from "../images/Honda.png";
-import bmw from "../images/BMW.png";
-import mercedes from "../images/mercedes.png";
-import kia from "../images/KIA.png";
+import suzuki from "../../images/Suzuki.png";
+import toyota from "../../images/Tyota.png";
+import honda from "../../images/Honda.png";
+import bmw from "../../images/BMW.png";
+import mercedes from "../../images/mercedes.png";
+import kia from "../../images/KIA.png";
 
 function Hero() {
   return (

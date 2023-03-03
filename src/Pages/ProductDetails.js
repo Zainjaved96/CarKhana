@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import Layout from "../Components/Layout";
+import Layout from "../Components/Layout/Layout";
 import { useState  } from "react";
 import { Link } from "react-router-dom";
 

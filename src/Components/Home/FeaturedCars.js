@@ -1,8 +1,8 @@
 import React from "react";
-import alto from "../images/Alto.jpg";
-import civic from "../images/civic.jpg";
-import swift from "../images/swift.png";
-import landCruisor from "../images/landCruiser.png";
+import alto from "../../images/Alto.jpg";
+import civic from "../../images/civic.jpg";
+import swift from "../../images/swift.png";
+import landCruisor from "../../images/landCruiser.png";
 import { Link } from "react-router-dom";
 function FeaturedCars() {
   

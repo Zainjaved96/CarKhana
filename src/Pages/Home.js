@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../Components/Hero";
-import Brands from "../Components/Brands";
-import FeaturedCars from "../Components/FeaturedCars";
-import Features from "../Components/Features";
-import Layout from "../Components/Layout";
+import Hero from "../Components/Home/Hero";
+import Brands from "../Components/Home/Brands";
+import FeaturedCars from "../Components/Home/FeaturedCars";
+import Features from "../Components/Home/Features";
+import Layout from "../Components/Layout/Layout";
 
 function Home(props) {
   document.title = props.title + " - Carkhana";

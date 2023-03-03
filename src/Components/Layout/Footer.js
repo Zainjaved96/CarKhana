@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../../images/logo.png";
 
 function Footer() {
   return (
@@ -18,24 +18,28 @@ function Footer() {
           <div className="div flex flex-row ">
             <a href="/" className="w-10 h-10">
               <img
+                alt="social-icon"
                 width=""
                 src="https://img.icons8.com/color/96/null/facebook-new.png"
               />
             </a>
             <a href="/" className="w-10 h-10">
               <img
+                alt="social-icon"
                 width=""
                 src="https://img.icons8.com/fluency/96/null/instagram-new.png"
               />
             </a>
             <a href="/" className="w-10 h-10">
               <img
+                alt="social-icon"
                 width=""
                 src="https://img.icons8.com/fluency/96/null/twitter.png"
               />{" "}
             </a>
             <a href="/" className="w-10 h-10">
               <img
+                alt="social-icon"
                 width=""
                 src="https://img.icons8.com/fluency/96/null/gmail.png"
               />

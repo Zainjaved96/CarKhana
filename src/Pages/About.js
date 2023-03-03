@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutHero from '../Components/AboutHero';
-import Layout from '../Components/Layout';
+import AboutHero from '../Components/About/AboutHero';
+import Layout from '../Components/Layout/Layout';
 
 function About(props) {
   // Changing Title 

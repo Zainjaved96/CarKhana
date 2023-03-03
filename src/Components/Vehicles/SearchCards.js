@@ -11,7 +11,7 @@ function SearchCards(props) {
   return (
         <div className="flex-col my-2 sm:flex-row flex  sm:items-center py-2 bg-white px-2 rounded shadow-sm">
         <div className="flex justify-center">
-            <img src={require(`../images/${imageName}`)} className="w-[164px] h[129px]" alt="" />
+            <img src={require(`../../images/${imageName}`)} className="w-[164px] h[129px]" alt="" />
         </div>
         <div className="flex  flex-col  sm:px-5">
             <h1 className="text-xl font-semibold">{name}</h1>

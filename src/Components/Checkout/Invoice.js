@@ -3,7 +3,7 @@ import React from 'react'
 function Invoice() {
   return (
     // Creating Card
-        <div className='bg-gray-100 p-4 text-center rounded shadow'>
+        <div className='bg-gray-100 p-4 text-center rounded shadow w-[20rem]'>
             <div className="flex justify-around">
                 <p className='text-base w-full font-semibold'>Vehicle</p>
                 <p className='text-base w-full font-semibold'>Total</p>

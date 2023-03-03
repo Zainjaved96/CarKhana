@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 function Footer() {
   return (
     // Footer Aligned by Flexbox inspired by Phonekar.biz
-    <footer className="font-poppins text-gray-900 flex flex-wrap flex-col sm:flex-row text-center sm:text-start justify-around bg-white sm:py-[100px] py-5  px-1 lg:px-5">
+    <footer className="font-poppins text-gray-900 flex flex-wrap flex-col sm:flex-row text-center sm:text-start justify-around bg-white sm:py-[80px] py-5  px-3 lg:px-5">
       <div className="sm:text-start flex flex-col pb-5">
         <div className="flex justify-center text-start">
           <img src={logo} width="50%" alt="" />
@@ -85,31 +85,31 @@ function Footer() {
         <h1 className="text-2xl font-semibold">Brands</h1>
         <a
           href="/vehicles"
-          className="text-lg hover:text-carRed cursor-pointer "
+          className="text-base font-light hover:text-carRed cursor-pointer "
         >
           Suzuki
         </a>
         <a
           href="/vehicles"
-          className="text-lg hover:text-carRed cursor-pointer "
+          className="text-base font-light hover:text-carRed cursor-pointer "
         >
           Honda
         </a>
         <a
           href="/vehicles"
-          className="text-lg hover:text-carRed cursor-pointer "
+          className="text-base font-light hover:text-carRed cursor-pointer "
         >
           Mercedes
         </a>
         <a
           href="/vehicles"
-          className="text-lg hover:text-carRed cursor-pointer "
+          className="text-base font-light hover:text-carRed cursor-pointer "
         >
           BMW
         </a>
         <a
           href="/vehicles"
-          className="text-lg hover:text-carRed cursor-pointer "
+          className="text-base font-light hover:text-carRed cursor-pointer "
         >
           Kia
         </a>

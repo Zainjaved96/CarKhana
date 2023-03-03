@@ -4,7 +4,7 @@ function SignupForm() {
   return (
     // Signup form made with flex and dividing width of inputs
     <div className="text-gray-900 font-poppins relative bg-white">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container sm:px-5 px-2 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Sign Up

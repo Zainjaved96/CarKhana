@@ -16,9 +16,12 @@ function Checkout() {
                 </div>
                 <div className='w-full  px-4'>
                  <h1 className='text-xl font-medium text-center py-2 '>Your Order</h1>
-                 <Invoice/>
+                 <div className='flex justify-center'>
+                    <Invoice/>
+                 </div>
+              
                  <div className='mt-3 text-center'>
-                    <button className='bg-gray-800 hover:bg-gray-900  px-3 py-2 text-white text-xl  w-full rounded'>Order Now</button>
+                    <button className='bg-gray-800 hover:bg-gray-900  px-3 py-2 text-white text-xl rounded'>Order Now</button>
                  </div>
             </div>
             </div>
